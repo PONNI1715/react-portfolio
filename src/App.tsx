@@ -1,24 +1,24 @@
-// import Header from './components/Header';
-
-import About from './components/About';
-// import Skills f rom './components/Skills';
-import Projects from './components/Projects';
-// import Contact from './components/Contact';
-// import Footer from './components/Footer';
-
+import Header from "./components/Header";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
-return (
-<>
-{/* <Header /> */}
-<About />
-{/* <Skills /> */}
-<Projects />
-{/* <Contact />
-<Footer /> */}
-</>
-);
+  return (
+    <>
+      <Header />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
